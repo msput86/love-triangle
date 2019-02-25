@@ -27,6 +27,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   return triangles.length;
 
 };
+
 function isTriangle(first, second, third){
   if ((first[1]==second[0]) && (second[1]==third[0]) && (third[1]==first[0]) && (first[0] != second[0]) && (second[0]!=third[0])){
     return true;
